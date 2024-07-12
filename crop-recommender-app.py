@@ -6,7 +6,7 @@ import joblib
 #Creating the flask app
 app = Flask(__name__)
 
-model = joblib.load(r"D:\02_Internship\02_ RSIP\Flask-Web App\Crop-Recommender.pkl")
+model = joblib.load(r"Crop-Recommender.pkl")
 
 @app.route('/')
 def home():
