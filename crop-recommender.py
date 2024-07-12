@@ -14,7 +14,7 @@ import seaborn as sns
 ##-----------------------------------------------------------------------------
 ##Importing & Checking the dataset
 
-crop_df = pd.read_csv("https://raw.githubusercontent.com/dphi-official/Datasets/master/crop_recommendation/train_set_label.csv")
+crop_df = pd.read_csv("Crop_recommendation.csv")
 
 crop_df.head()
 crop_df.tail()
